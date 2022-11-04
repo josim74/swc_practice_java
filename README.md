@@ -44,24 +44,24 @@ System.out.println(vowelsSet);
 ### Set to Array
 We can convert Set to Array using Set.toArray() method as shown below-
 ```java
-	Set<String< vowelsSet = new HashSet<>();
-	vowelsSet.add("a");
-	vowelsSet.add("e");
-	vowelsSet.add("i");
-	vowelsSet.add("o");
-	vowelsSet.add("u");
+Set<String< vowelsSet = new HashSet<>();
+vowelsSet.add("a");
+vowelsSet.add("e");
+vowelsSet.add("i");
+vowelsSet.add("o");
+vowelsSet.add("u");
   
-	//convert Set to Array
-	String strArray[] = vowelsSet.toArray(new String[vowelsSet.size()]);
-	System.out.println(Arrays.toString(strArray));
+//convert Set to Array
+String strArray[] = vowelsSet.toArray(new String[vowelsSet.size()]);
+System.out.println(Arrays.toString(strArray));
 ```
 
 ### Set Sorting
 As we know, Set (HashSet) does NOT support sorting elements directly. It stores and display it’s elements in random order. However, we have some approaches to sort it’s elements as shown below-
 ```java
-		Set<Integer> intsSet = new HashSet<>(); // Assuming intSet have some random integer value
-		Set<Integer> sortedSet = new TreeSet<>(intsSet);
-		System.out.println("Sorted Set: " + sortedSet);
+Set<Integer> intsSet = new HashSet<>(); // Assuming intSet have some random integer value
+Set<Integer> sortedSet = new TreeSet<>(intsSet);
+System.out.println("Sorted Set: " + sortedSet);
 ```
 ### Set Iterator
 Below is a simple example showing how to iterate over Java Set-
@@ -98,14 +98,14 @@ while(iterator.hasNext()){
 ### Set to Stream
 Below is a simple example showing how to convert a Java Set to Stream and perform some operations as per our requirements-
 ```java
-	Set<String> vowelsSet = new HashSet<>();
-	// add example
-	vowelsSet.add("a");
-	vowelsSet.add("e");
-	vowelsSet.add("i");
-	vowelsSet.add("o");
-	vowelsSet.add("u");
+Set<String> vowelsSet = new HashSet<>();
+// add example
+vowelsSet.add("a");
+vowelsSet.add("e");
+vowelsSet.add("i");
+vowelsSet.add("o");
+vowelsSet.add("u");
 		
-	//convert set to stream
-	vowelsSet.stream().forEach(System.out::println);
+//convert set to stream
+vowelsSet.stream().forEach(System.out::println);
 ```

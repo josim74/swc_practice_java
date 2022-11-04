@@ -1,0 +1,8 @@
+Set
+------------
+- Java Set interface is a member of the Java Collections Framework.
+- Unlike List, Set DOES NOT allow you to add duplicate elements.
+- Set allows you to add at most one null element only.
+- Set interface got one default method in Java 8: spliterator.
+- Unlike List and arrays, Set does NOT support indexes or positions of it’s elements.
+- Set supports Generics and we should use it whenever possible. 

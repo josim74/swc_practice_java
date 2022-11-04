@@ -1,3 +1,6 @@
+<details><summary>Java Set</summary>
+<p>
+	
 # Set
 - Java Set interface is a member of the Java Collections Framework.
 - Unlike List, Set DOES NOT allow you to add duplicate elements.
@@ -109,3 +112,5 @@ vowelsSet.add("u");
 //convert set to stream
 vowelsSet.stream().forEach(System.out::println);
 ```
+</p>
+</details>
